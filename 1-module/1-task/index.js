@@ -1,7 +1,7 @@
 'use strict';
 
 function factorial(n){
-  var result = 1;
+  let result = 1;
   while(n){
       result *= n--;
   }
